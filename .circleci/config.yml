@@ -10,13 +10,6 @@ jobs:
       - node/install
       - checkout
       - run:
-          name: Clear NPM cache
-          command: npm cache clean --force
-      - run:
-          name: Set NPM version
-          command: |
-            npm install -g npm@10.4.0
-      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
