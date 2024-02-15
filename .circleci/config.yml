@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Set NPM version
           command: |
-            npm install -g npm@10.4.0
+            npm install -g npm@6.14.5
       - run:
           name: Front-End Install
           command: |
